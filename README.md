@@ -37,6 +37,6 @@ Metrics are reported per tenor and in aggregate. The model exceeds the project t
 ```bash
 git clone https://github.com/Ainesh-Das/Yield-Curve-Prediction.git
 cd Yield-Curve-Prediction
-pip install -r Requirements .txt
+pip install -r requirement.txt
 jupyter notebook CIR_Ainesh_24114008.ipynb
 ```
