@@ -31,16 +31,12 @@ The closed-form affine term structure gives zero-coupon bond prices at any matur
 
 Metrics are reported per tenor and in aggregate. The model exceeds the project threshold of R² > 0.85 on the held-out test set.
 
-## Requirements
-
-```
-numpy  pandas  scipy  matplotlib
-```
 
 ## How to Run
 
 ```bash
 git clone https://github.com/Ainesh-Das/Yield-Curve-Prediction.git
 cd Yield-Curve-Prediction
+pip install -r Requirements.txt
 jupyter notebook CIR_Ainesh_24114008.ipynb
 ```
